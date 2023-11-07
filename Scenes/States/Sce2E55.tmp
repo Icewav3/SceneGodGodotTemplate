@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3k44loinrj7m"]
+
+[ext_resource type="Script" path="res://Scripts/StateScripts/StateMachine.gd" id="1_fbtac"]
+
+[node name="SceneGod" type="Node2D"]
+script = ExtResource("1_fbtac")
+currentState = null
+Zoom_Sensitivity = null
+DebugMode = null
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0

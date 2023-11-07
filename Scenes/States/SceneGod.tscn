@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cl4gp1o6gfbqo"]
+
+[ext_resource type="Script" path="res://Scripts/StateScripts/SceneGod.gd" id="1_y7li3"]
+
+[node name="SceneGod" type="Node2D"]
+script = ExtResource("1_y7li3")
+DebugMode = true
